@@ -25,7 +25,7 @@ int main(void)
         // Update the counter
         count++;
         
-        if ( count % 50 == 0 )
+        if ( count % 35 == 0 )
             LED_IN_Write( !LED_IN_Read() );  // Toggle the LED state
             
         CyDelay(10); // 10 ms
